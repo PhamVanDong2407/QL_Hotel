@@ -1,0 +1,14 @@
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\Guna.UI2.dll
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.AssemblyReference.cache
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Form1.resources
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKh.7BBD220C.Up2Date
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Dashboard.resources
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.AllUserControl.Uc_AddRoom.resources

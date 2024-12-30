@@ -57,11 +57,14 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(21, 103);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(846, 563);
             this.dataGridView1.TabIndex = 1;
             // 
@@ -206,6 +209,7 @@
             this.btnAddRoom.Size = new System.Drawing.Size(124, 65);
             this.btnAddRoom.TabIndex = 10;
             this.btnAddRoom.Text = "Thêm Phòng";
+            this.btnAddRoom.Click += new System.EventHandler(this.btnAddRoom_Click);
             // 
             // guna2Elipse1
             // 
@@ -229,6 +233,9 @@
             this.Controls.Add(this.label1);
             this.Name = "Uc_AddRoom";
             this.Size = new System.Drawing.Size(1882, 852);
+            this.Load += new System.EventHandler(this.Uc_AddRoom_Load);
+            this.Enter += new System.EventHandler(this.Uc_AddRoom_Enter);
+            this.Leave += new System.EventHandler(this.Uc_AddRoom_Leave);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -41,7 +41,14 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.PanelMoving = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uc_Checkout1 = new QuanLyKhachSan.AllUserControl.Uc_Checkout();
+            this.uc_CustumerRes1 = new QuanLyKhachSan.AllUserControl.Uc_CustumerRes();
+            this.uc_AddRoom2 = new QuanLyKhachSan.AllUserControl.Uc_AddRoom();
             this.uc_AddRoom1 = new QuanLyKhachSan.AllUserControl.Uc_AddRoom();
+            this.uc_CustomerDetails1 = new QuanLyKhachSan.AllUserControl.Uc_CustomerDetails();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -58,8 +65,9 @@
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
             this.btnExit.ImageSize = new System.Drawing.Size(35, 35);
             this.btnExit.Location = new System.Drawing.Point(1, 1);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(47, 45);
+            this.btnExit.Size = new System.Drawing.Size(63, 55);
             this.btnExit.TabIndex = 0;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
@@ -74,9 +82,10 @@
             this.btnMiniSize.ForeColor = System.Drawing.Color.White;
             this.btnMiniSize.Image = ((System.Drawing.Image)(resources.GetObject("btnMiniSize.Image")));
             this.btnMiniSize.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnMiniSize.Location = new System.Drawing.Point(1, 52);
+            this.btnMiniSize.Location = new System.Drawing.Point(1, 64);
+            this.btnMiniSize.Margin = new System.Windows.Forms.Padding(4);
             this.btnMiniSize.Name = "btnMiniSize";
-            this.btnMiniSize.Size = new System.Drawing.Size(47, 45);
+            this.btnMiniSize.Size = new System.Drawing.Size(63, 55);
             this.btnMiniSize.TabIndex = 1;
             // 
             // panel1
@@ -87,9 +96,10 @@
             this.panel1.Controls.Add(this.btnCustomerDetails);
             this.panel1.Controls.Add(this.btnCheckOut);
             this.panel1.Controls.Add(this.btnAddRoom);
-            this.panel1.Location = new System.Drawing.Point(70, 12);
+            this.panel1.Location = new System.Drawing.Point(93, 15);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1765, 130);
+            this.panel1.Size = new System.Drawing.Size(1687, 159);
             this.panel1.TabIndex = 2;
             // 
             // btnCustomerRes
@@ -105,11 +115,13 @@
             this.btnCustomerRes.ForeColor = System.Drawing.Color.White;
             this.btnCustomerRes.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomerRes.Image")));
             this.btnCustomerRes.ImageSize = new System.Drawing.Size(50, 50);
-            this.btnCustomerRes.Location = new System.Drawing.Point(345, 3);
+            this.btnCustomerRes.Location = new System.Drawing.Point(364, 4);
+            this.btnCustomerRes.Margin = new System.Windows.Forms.Padding(4);
             this.btnCustomerRes.Name = "btnCustomerRes";
-            this.btnCustomerRes.Size = new System.Drawing.Size(284, 116);
+            this.btnCustomerRes.Size = new System.Drawing.Size(308, 143);
             this.btnCustomerRes.TabIndex = 4;
             this.btnCustomerRes.Text = "Đăng Ký Khách Hàng";
+            this.btnCustomerRes.Click += new System.EventHandler(this.btnCustomerRes_Click);
             // 
             // btnEmployee
             // 
@@ -124,9 +136,10 @@
             this.btnEmployee.ForeColor = System.Drawing.Color.White;
             this.btnEmployee.Image = ((System.Drawing.Image)(resources.GetObject("btnEmployee.Image")));
             this.btnEmployee.ImageSize = new System.Drawing.Size(45, 45);
-            this.btnEmployee.Location = new System.Drawing.Point(1329, 3);
+            this.btnEmployee.Location = new System.Drawing.Point(1362, 4);
+            this.btnEmployee.Margin = new System.Windows.Forms.Padding(4);
             this.btnEmployee.Name = "btnEmployee";
-            this.btnEmployee.Size = new System.Drawing.Size(284, 116);
+            this.btnEmployee.Size = new System.Drawing.Size(296, 143);
             this.btnEmployee.TabIndex = 3;
             this.btnEmployee.Text = "Nhân Viên";
             // 
@@ -143,11 +156,13 @@
             this.btnCustomerDetails.ForeColor = System.Drawing.Color.White;
             this.btnCustomerDetails.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomerDetails.Image")));
             this.btnCustomerDetails.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnCustomerDetails.Location = new System.Drawing.Point(999, 3);
+            this.btnCustomerDetails.Location = new System.Drawing.Point(1009, 4);
+            this.btnCustomerDetails.Margin = new System.Windows.Forms.Padding(4);
             this.btnCustomerDetails.Name = "btnCustomerDetails";
-            this.btnCustomerDetails.Size = new System.Drawing.Size(284, 116);
+            this.btnCustomerDetails.Size = new System.Drawing.Size(330, 143);
             this.btnCustomerDetails.TabIndex = 2;
             this.btnCustomerDetails.Text = "Thông Tin Khách Hàng";
+            this.btnCustomerDetails.Click += new System.EventHandler(this.btnCustomerDetails_Click);
             // 
             // btnCheckOut
             // 
@@ -162,11 +177,13 @@
             this.btnCheckOut.ForeColor = System.Drawing.Color.White;
             this.btnCheckOut.Image = ((System.Drawing.Image)(resources.GetObject("btnCheckOut.Image")));
             this.btnCheckOut.ImageSize = new System.Drawing.Size(50, 50);
-            this.btnCheckOut.Location = new System.Drawing.Point(670, 3);
+            this.btnCheckOut.Location = new System.Drawing.Point(693, 4);
+            this.btnCheckOut.Margin = new System.Windows.Forms.Padding(4);
             this.btnCheckOut.Name = "btnCheckOut";
-            this.btnCheckOut.Size = new System.Drawing.Size(284, 116);
+            this.btnCheckOut.Size = new System.Drawing.Size(294, 143);
             this.btnCheckOut.TabIndex = 1;
             this.btnCheckOut.Text = "Thanh Toán";
+            this.btnCheckOut.Click += new System.EventHandler(this.btnCheckOut_Click);
             // 
             // btnAddRoom
             // 
@@ -181,54 +198,107 @@
             this.btnAddRoom.ForeColor = System.Drawing.Color.White;
             this.btnAddRoom.Image = ((System.Drawing.Image)(resources.GetObject("btnAddRoom.Image")));
             this.btnAddRoom.ImageSize = new System.Drawing.Size(50, 50);
-            this.btnAddRoom.Location = new System.Drawing.Point(21, 3);
+            this.btnAddRoom.Location = new System.Drawing.Point(28, 4);
+            this.btnAddRoom.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddRoom.Name = "btnAddRoom";
-            this.btnAddRoom.Size = new System.Drawing.Size(284, 116);
+            this.btnAddRoom.Size = new System.Drawing.Size(314, 143);
             this.btnAddRoom.TabIndex = 0;
             this.btnAddRoom.Text = "Thêm Phòng";
             this.btnAddRoom.Click += new System.EventHandler(this.btnAddRoom_Click);
             // 
             // panel2
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.uc_CustomerDetails1);
+            this.panel2.Controls.Add(this.uc_Checkout1);
+            this.panel2.Controls.Add(this.uc_CustumerRes1);
+            this.panel2.Controls.Add(this.uc_AddRoom2);
             this.panel2.Controls.Add(this.uc_AddRoom1);
-            this.panel2.Location = new System.Drawing.Point(12, 162);
+            this.panel2.Location = new System.Drawing.Point(16, 199);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1882, 852);
+            this.panel2.Size = new System.Drawing.Size(2489, 1048);
             this.panel2.TabIndex = 3;
             // 
             // PanelMoving
             // 
             this.PanelMoving.BackColor = System.Drawing.Color.Lime;
-            this.PanelMoving.Location = new System.Drawing.Point(93, 148);
+            this.PanelMoving.Location = new System.Drawing.Point(124, 182);
+            this.PanelMoving.Margin = new System.Windows.Forms.Padding(4);
             this.PanelMoving.Name = "PanelMoving";
-            this.PanelMoving.Size = new System.Drawing.Size(300, 7);
+            this.PanelMoving.Size = new System.Drawing.Size(313, 10);
             this.PanelMoving.TabIndex = 0;
             // 
             // guna2Elipse1
             // 
             this.guna2Elipse1.TargetControl = this;
             // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.TargetControl = this;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.TargetControl = this;
+            // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.TargetControl = this;
+            // 
+            // uc_Checkout1
+            // 
+            this.uc_Checkout1.BackColor = System.Drawing.Color.White;
+            this.uc_Checkout1.Location = new System.Drawing.Point(-1, -2);
+            this.uc_Checkout1.Name = "uc_Checkout1";
+            this.uc_Checkout1.Size = new System.Drawing.Size(2497, 900);
+            this.uc_Checkout1.TabIndex = 3;
+            // 
+            // uc_CustumerRes1
+            // 
+            this.uc_CustumerRes1.BackColor = System.Drawing.Color.White;
+            this.uc_CustumerRes1.Location = new System.Drawing.Point(-1, -2);
+            this.uc_CustumerRes1.Name = "uc_CustumerRes1";
+            this.uc_CustumerRes1.Size = new System.Drawing.Size(2489, 900);
+            this.uc_CustumerRes1.TabIndex = 2;
+            // 
+            // uc_AddRoom2
+            // 
+            this.uc_AddRoom2.Location = new System.Drawing.Point(1227, 207);
+            this.uc_AddRoom2.Margin = new System.Windows.Forms.Padding(5);
+            this.uc_AddRoom2.Name = "uc_AddRoom2";
+            this.uc_AddRoom2.Size = new System.Drawing.Size(8, 7);
+            this.uc_AddRoom2.TabIndex = 1;
+            // 
             // uc_AddRoom1
             // 
             this.uc_AddRoom1.BackColor = System.Drawing.Color.White;
-            this.uc_AddRoom1.Location = new System.Drawing.Point(-7, -13);
+            this.uc_AddRoom1.Location = new System.Drawing.Point(-9, -16);
+            this.uc_AddRoom1.Margin = new System.Windows.Forms.Padding(5);
             this.uc_AddRoom1.Name = "uc_AddRoom1";
-            this.uc_AddRoom1.Size = new System.Drawing.Size(1887, 862);
+            this.uc_AddRoom1.Size = new System.Drawing.Size(2495, 1061);
             this.uc_AddRoom1.TabIndex = 0;
+            // 
+            // uc_CustomerDetails1
+            // 
+            this.uc_CustomerDetails1.BackColor = System.Drawing.Color.White;
+            this.uc_CustomerDetails1.Location = new System.Drawing.Point(-1, -2);
+            this.uc_CustomerDetails1.Name = "uc_CustomerDetails1";
+            this.uc_CustomerDetails1.Size = new System.Drawing.Size(2489, 900);
+            this.uc_CustomerDetails1.TabIndex = 4;
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(112)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1946, 1106);
+            this.ClientSize = new System.Drawing.Size(2595, 1100);
             this.Controls.Add(this.PanelMoving);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnMiniSize);
             this.Controls.Add(this.btnExit);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
@@ -254,5 +324,12 @@
         private Guna.UI2.WinForms.Guna2Panel PanelMoving;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private AllUserControl.Uc_AddRoom uc_AddRoom1;
+        private AllUserControl.Uc_AddRoom uc_AddRoom2;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private AllUserControl.Uc_CustumerRes uc_CustumerRes1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
+        private AllUserControl.Uc_Checkout uc_Checkout1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
+        private AllUserControl.Uc_CustomerDetails uc_CustomerDetails1;
     }
 }

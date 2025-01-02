@@ -182,6 +182,12 @@
     <Compile Include="AllUserControl\Uc_CustumerRes.Designer.cs">
       <DependentUpon>Uc_CustumerRes.cs</DependentUpon>
     </Compile>
+    <Compile Include="AllUserControl\Uc_Employee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AllUserControl\Uc_Employee.Designer.cs">
+      <DependentUpon>Uc_Employee.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConnectSql.cs" />
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
@@ -208,6 +214,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AllUserControl\Uc_CustumerRes.resx">
       <DependentUpon>Uc_CustumerRes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllUserControl\Uc_Employee.resx">
+      <DependentUpon>Uc_Employee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>

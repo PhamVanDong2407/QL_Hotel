@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D554BED7-31D1-463C-A898-DA6D268B661E}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hequantricsdl\\code\\baicuoiki\\quanlykhachsan\\quanlykhachsan\\allusercontrol\\uc_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D554BED7-31D1-463C-A898-DA6D268B661E}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\allusercontrol\\uc_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D554BED7-31D1-463C-A898-DA6D268B661E}|QuanLyKhachSan\\QuanLyKhachSan.csproj|D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\quanlykhachsan\\allusercontrol\\uc_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D554BED7-31D1-463C-A898-DA6D268B661E}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\allusercontrol\\uc_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D554BED7-31D1-463C-A898-DA6D268B661E}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hequantricsdl\\code\\baicuoiki\\quanlykhachsan\\quanlykhachsan\\allusercontrol\\uc_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D554BED7-31D1-463C-A898-DA6D268B661E}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\allusercontrol\\uc_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D554BED7-31D1-463C-A898-DA6D268B661E}|QuanLyKhachSan\\QuanLyKhachSan.csproj|D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\quanlykhachsan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D554BED7-31D1-463C-A898-DA6D268B661E}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D554BED7-31D1-463C-A898-DA6D268B661E}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hequantricsdl\\code\\baicuoiki\\quanlykhachsan\\quanlykhachsan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D554BED7-31D1-463C-A898-DA6D268B661E}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D554BED7-31D1-463C-A898-DA6D268B661E}|QuanLyKhachSan\\QuanLyKhachSan.csproj|D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\quanlykhachsan\\allusercontrol\\uc_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D554BED7-31D1-463C-A898-DA6D268B661E}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\allusercontrol\\uc_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D554BED7-31D1-463C-A898-DA6D268B661E}|QuanLyKhachSan\\QuanLyKhachSan.csproj|D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\quanlykhachsan\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -26,61 +34,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\QuanLyKhachSan\\Form1.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Form1.cs",
+              "ToolTip": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\QuanLyKhachSan\\Form1.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T14:56:00.731Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\QuanLyKhachSan\\Form1.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Form1.cs",
+              "ToolTip": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\QuanLyKhachSan\\Form1.cs [Design]",
+              "RelativeToolTip": "QuanLyKhachSan\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T14:55:56.178Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Uc_Employee.cs",
               "DocumentMoniker": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\QuanLyKhachSan\\AllUserControl\\Uc_Employee.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSan\\AllUserControl\\Uc_Employee.cs",
-              "ToolTip": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\QuanLyKhachSan\\AllUserControl\\Uc_Employee.cs*",
-              "RelativeToolTip": "QuanLyKhachSan\\AllUserControl\\Uc_Employee.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\QuanLyKhachSan\\AllUserControl\\Uc_Employee.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\AllUserControl\\Uc_Employee.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAwC0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T16:13:29.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Uc_Employee.cs [Design]",
               "DocumentMoniker": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\QuanLyKhachSan\\AllUserControl\\Uc_Employee.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSan\\AllUserControl\\Uc_Employee.cs",
-              "ToolTip": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\QuanLyKhachSan\\AllUserControl\\Uc_Employee.cs [Design]*",
-              "RelativeToolTip": "QuanLyKhachSan\\AllUserControl\\Uc_Employee.cs [Design]*",
+              "ToolTip": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\QuanLyKhachSan\\AllUserControl\\Uc_Employee.cs [Design]",
+              "RelativeToolTip": "QuanLyKhachSan\\AllUserControl\\Uc_Employee.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T16:09:11.703Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\QuanLyKhachSan\\Dashboard.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSan\\Dashboard.cs",
               "ToolTip": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\QuanLyKhachSan\\Dashboard.cs",
               "RelativeToolTip": "QuanLyKhachSan\\Dashboard.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAiwB0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T15:54:58.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T15:54:58.403Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Dashboard.cs [Design]",
               "DocumentMoniker": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\QuanLyKhachSan\\Dashboard.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSan\\Dashboard.cs",
               "ToolTip": "D:\\HeQuanTriCSDL\\CODE\\BaiCuoiKi\\QuanLyKhachSan\\QuanLyKhachSan\\Dashboard.cs [Design]",
               "RelativeToolTip": "QuanLyKhachSan\\Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T15:31:21.235Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-24T15:31:21.235Z"
             }
           ]
         }

@@ -85,3 +85,4 @@ D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\zh-Hant\
 D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.AllUserControl.Uc_CustumerRes.resources
 D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.AllUserControl.Uc_Checkout.resources
 D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.AllUserControl.Uc_CustomerDetails.resources
+D:\HeQuanTriCSDL\CODE\BaiCuoiKi\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.AllUserControl.Uc_Employee.resources

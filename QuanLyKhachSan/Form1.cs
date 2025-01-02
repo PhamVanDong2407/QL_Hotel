@@ -12,6 +12,8 @@ namespace QuanLyKhachSan
 {
     public partial class Form1 : Form
     {
+        ConnectSql connectSql = new ConnectSql();
+        String query;
         public Form1()
         {
             InitializeComponent();
@@ -34,18 +36,26 @@ namespace QuanLyKhachSan
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(txtUserName.Text == "admin" && txtPassword.Text == "ad12345")
+            query = "select TAIKHOAN, MATKHAU from NHANVIEN where TAIKHOAN = '" + txtUserName.Text + "' and MATKHAU = '" + txtPassword.Text + "'";
+            DataSet ds = connectSql.GetData(query);
+
+            if (ds.Tables[0].Rows.Count != 0)
             {
                 lblError.Visible = false;
-                Dashboard ds = new Dashboard();
+                Dashboard dash = new Dashboard();
                 this.Hide();
-                ds.Show();
+                dash.Show();
             }
             else
             {
                 lblError.Visible = true;
                 txtPassword.Clear();
             }
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
